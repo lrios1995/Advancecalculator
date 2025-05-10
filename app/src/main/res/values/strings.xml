@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Advanced Calculator</string>
+    <string name="button_add">+</string>
+    <string name="button_subtract">-</string>
+    <string name="button_multiply">*</string>
+    <string name="button_divide">/</string>
+    <string name="button_equals">=</string>
+    <string name="button_clear">C</string>
+    <string name="button_decimal">.</string>
+    <string name="button_history">History</string>
+    <string name="button_sqrt">√</string>
+    <string name="button_power">^</string>
+    <string name="button_sin">sin</string>
+    <string name="button_cos">cos</string>
+    <string name="button_tan">tan</string>
+    <string name="button_log">log</string>
+    <string name="button_pi">π</string>
+    <string name="button_e">e</string>
+    <string name="error_invalid_input">Invalid Input</string>
+    <string name="error_divide_by_zero">Cannot divide by zero</string>
+    <string name="history_title">Calculation History</string>
+    <string name="history_empty">No history available</string>
+</resources>

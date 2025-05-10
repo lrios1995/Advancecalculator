@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.CalculatorFragment">
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textSize="48sp"
+        android:textColor="@color/primary_text"
+        android:padding="16dp"
+        android:background="@drawable/display_background"
+        android:gravity="end" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:rowCount="5"
+        android:columnCount="4"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/button_clear"
+            style="@style/CalculatorButton"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/button_divide"
+            style="@style/CalculatorButton"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/button_multiply"
+            style="@style/CalculatorButton"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/button_delete"
+            style="@style/CalculatorButton"
+            android:text="DEL" />
+
+        <Button
+            android:id="@+id/button_seven"
+            style="@style/CalculatorButton"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/button_eight"
+            style="@style/CalculatorButton"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/button_nine"
+            style="@style/CalculatorButton"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/button_subtract"
+            style="@style/CalculatorButton"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/button_four"
+            style="@style/CalculatorButton"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/button_five"
+            style="@style/CalculatorButton"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/button_six"
+            style="@style/CalculatorButton"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/button_add"
+            style="@style/CalculatorButton"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/button_one"
+            style="@style/CalculatorButton"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button_two"
+            style="@style/CalculatorButton"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button_three"
+            style="@style/CalculatorButton"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/button_equals"
+            style="@style/CalculatorButton"
+            android:text="=" />
+
+        <Button
+            android:id="@+id/button_zero"
+            style="@style/CalculatorButton"
+            android:text="0"
+            android:layout_columnSpan="2" />
+
+        <Button
+            android:id="@+id/button_decimal"
+            style="@style/CalculatorButton"
+            android:text="." />
+
+    </GridLayout>
+
+</LinearLayout>
